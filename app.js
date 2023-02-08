@@ -47,9 +47,9 @@ try{
 
 //Creamos función async
 async function getTesla(){    
-    const URL = 'https://es.investing.com/equities/tesla-motors'
+    const URL1 = 'https://es.investing.com/equities/tesla-motors'
 try{
-    const response = await fetch(URL);
+    const response = await fetch(URL1);
     const body = await response.text();
     const $ = cheerio.load(body);
 
